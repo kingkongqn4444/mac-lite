@@ -28,7 +28,7 @@ Mac Lite turns your iPhone into a miniature Mac. It simulates the full macOS Seq
 
 **Everything is built in pure SwiftUI. No external dependencies. No WebViews (except Safari). Just SwiftUI.**
 
-https://github.com/user-attachments/assets/demo-preview.mp4
+https://github.com/kingkongqn4444/mac-lite/releases/download/v1.0.0/demo-full.mp4
 
 ## Features
 
