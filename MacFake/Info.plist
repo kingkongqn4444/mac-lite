@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>MacFake needs access to display your photos in the Photos app.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>MacFake needs camera access for FaceTime.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>MacFake needs microphone access for FaceTime.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>MacFake needs access to display your contacts.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>MacFake needs access to display your calendar events.</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>MacFake needs access to play your music library.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>MacFake needs your location to show it on the map.</string>
+</dict>
+</plist>
