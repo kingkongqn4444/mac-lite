@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001 /* MacFakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001 /* MacFakeApp.swift */; };
+		A10002 /* DesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20002 /* DesktopView.swift */; };
+		A10003 /* MacColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20003 /* MacColors.swift */; };
+		A10004 /* MacFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20004 /* MacFonts.swift */; };
+		A10005 /* MacShadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20005 /* MacShadows.swift */; };
+		A10006 /* FakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20006 /* FakeApp.swift */; };
+		A10007 /* WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20007 /* WindowManager.swift */; };
+		A10008 /* WindowState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20008 /* WindowState.swift */; };
+		A10009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20009 /* Assets.xcassets */; };
+		A10071 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = A20071 /* Assets */; };
+		A10072 /* LaunchpadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20072 /* LaunchpadView.swift */; };
+		A10073 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20073 /* MessagesView.swift */; };
+		A10074 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20074 /* MailView.swift */; };
+		A10075 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20075 /* RemindersView.swift */; };
+		A10010 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20010 /* MenuBarView.swift */; };
+		A10011 /* MenuDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20011 /* MenuDropdown.swift */; };
+		A10012 /* DockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20012 /* DockView.swift */; };
+		A10013 /* DockIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20013 /* DockIconView.swift */; };
+		A10014 /* DesktopIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20014 /* DesktopIconView.swift */; };
+		A10015 /* WindowChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20015 /* WindowChrome.swift */; };
+		A10016 /* ResizableWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20016 /* ResizableWindow.swift */; };
+		A10017 /* TrafficLightButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20017 /* TrafficLightButtons.swift */; };
+		A10018 /* WindowsLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20018 /* WindowsLayerView.swift */; };
+		A10019 /* AboutMacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20019 /* AboutMacView.swift */; };
+		A10020 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20020 /* CalculatorView.swift */; };
+		A10021 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20021 /* CalculatorViewModel.swift */; };
+		A10022 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20022 /* NotesView.swift */; };
+		A10023 /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20023 /* NotesViewModel.swift */; };
+		A10024 /* FinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20024 /* FinderView.swift */; };
+		A10025 /* FakeFileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20025 /* FakeFileSystem.swift */; };
+		A10026 /* TextEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20026 /* TextEditView.swift */; };
+		A10027 /* TerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20027 /* TerminalView.swift */; };
+		A10028 /* TerminalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20028 /* TerminalViewModel.swift */; };
+		A10029 /* CommandParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20029 /* CommandParser.swift */; };
+		A10030 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20030 /* SafariView.swift */; };
+		A10031 /* SafariWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20031 /* SafariWebView.swift */; };
+		A10032 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20032 /* SettingsView.swift */; };
+		A10033 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20033 /* HapticManager.swift */; };
+		A10034 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20034 /* PlaceholderView.swift */; };
+		A10035 /* WiFiDropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20035 /* WiFiDropdownView.swift */; };
+		A10036 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20036 /* PhotosView.swift */; };
+		A10037 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20037 /* MusicView.swift */; };
+		A10038 /* MapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20038 /* MapsView.swift */; };
+		A10039 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20039 /* CalendarView.swift */; };
+		A10040 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20040 /* CameraView.swift */; };
+		A10041 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20041 /* ContactsView.swift */; };
+		A10042 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20042 /* ClockView.swift */; };
+		A10043 /* WallpaperManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20043 /* WallpaperManager.swift */; };
+		A10044 /* BatteryDropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20044 /* BatteryDropdownView.swift */; };
+		A10045 /* ClockDropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20045 /* ClockDropdownView.swift */; };
+		A10046 /* SpotlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20046 /* SpotlightView.swift */; };
+		A10047 /* BootScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20047 /* BootScreen.swift */; };
+		A10048 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20048 /* LoginScreen.swift */; };
+		A10049 /* IDETheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20049 /* IDETheme.swift */; };
+		A10050 /* SyntaxHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20050 /* SyntaxHighlighter.swift */; };
+		A10051 /* CodeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20051 /* CodeEditorView.swift */; };
+		A10052 /* FileTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20052 /* FileTreeView.swift */; };
+		A10053 /* IDETabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20053 /* IDETabBarView.swift */; };
+		A10054 /* IDETerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20054 /* IDETerminalView.swift */; };
+		A10055 /* IDELayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20055 /* IDELayoutView.swift */; };
+		A10056 /* XcodeTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20056 /* XcodeTheme.swift */; };
+		A10057 /* XcodeToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20057 /* XcodeToolbar.swift */; };
+		A10058 /* XcodeNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20058 /* XcodeNavigator.swift */; };
+		A10059 /* XcodeAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20059 /* XcodeAppView.swift */; };
+		A10060 /* VSCodeTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20060 /* VSCodeTheme.swift */; };
+		A10061 /* VSCodeActivityBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20061 /* VSCodeActivityBar.swift */; };
+		A10062 /* VSCodeSidebarPanels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20062 /* VSCodeSidebarPanels.swift */; };
+		A10063 /* VSCodeBreadcrumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20063 /* VSCodeBreadcrumb.swift */; };
+		A10064 /* VSCodeMinimap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20064 /* VSCodeMinimap.swift */; };
+		A10065 /* VSCodeStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20065 /* VSCodeStatusBar.swift */; };
+		A10066 /* VSCodeAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20066 /* VSCodeAppView.swift */; };
+		A10067 /* AndroidStudioTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20067 /* AndroidStudioTheme.swift */; };
+		A10068 /* AndroidStudioToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20068 /* AndroidStudioToolbar.swift */; };
+		A10069 /* AndroidStudioLogcat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20069 /* AndroidStudioLogcat.swift */; };
+		A10070 /* AndroidStudioAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20070 /* AndroidStudioAppView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20001 /* MacFakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacFakeApp.swift; sourceTree = "<group>"; };
+		A20002 /* DesktopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopView.swift; sourceTree = "<group>"; };
+		A20003 /* MacColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacColors.swift; sourceTree = "<group>"; };
+		A20004 /* MacFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacFonts.swift; sourceTree = "<group>"; };
+		A20005 /* MacShadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacShadows.swift; sourceTree = "<group>"; };
+		A20006 /* FakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeApp.swift; sourceTree = "<group>"; };
+		A20007 /* WindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowManager.swift; sourceTree = "<group>"; };
+		A20008 /* WindowState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowState.swift; sourceTree = "<group>"; };
+		A20009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20010 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		A20011 /* MenuDropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDropdown.swift; sourceTree = "<group>"; };
+		A20012 /* DockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockView.swift; sourceTree = "<group>"; };
+		A20013 /* DockIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockIconView.swift; sourceTree = "<group>"; };
+		A20014 /* DesktopIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopIconView.swift; sourceTree = "<group>"; };
+		A20015 /* WindowChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowChrome.swift; sourceTree = "<group>"; };
+		A20016 /* ResizableWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableWindow.swift; sourceTree = "<group>"; };
+		A20017 /* TrafficLightButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightButtons.swift; sourceTree = "<group>"; };
+		A20018 /* WindowsLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowsLayerView.swift; sourceTree = "<group>"; };
+		A20019 /* AboutMacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMacView.swift; sourceTree = "<group>"; };
+		A20020 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		A20021 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		A20022 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		A20023 /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
+		A20024 /* FinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderView.swift; sourceTree = "<group>"; };
+		A20025 /* FakeFileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeFileSystem.swift; sourceTree = "<group>"; };
+		A20026 /* TextEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditView.swift; sourceTree = "<group>"; };
+		A20027 /* TerminalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalView.swift; sourceTree = "<group>"; };
+		A20028 /* TerminalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalViewModel.swift; sourceTree = "<group>"; };
+		A20029 /* CommandParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandParser.swift; sourceTree = "<group>"; };
+		A20030 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		A20031 /* SafariWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebView.swift; sourceTree = "<group>"; };
+		A20032 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20033 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		A20034 /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
+		A20035 /* WiFiDropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiDropdownView.swift; sourceTree = "<group>"; };
+		A20036 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		A20037 /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		A20038 /* MapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsView.swift; sourceTree = "<group>"; };
+		A20039 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A20040 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		A20041 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		A20042 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		A20043 /* WallpaperManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperManager.swift; sourceTree = "<group>"; };
+		A20044 /* BatteryDropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryDropdownView.swift; sourceTree = "<group>"; };
+		A20045 /* ClockDropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockDropdownView.swift; sourceTree = "<group>"; };
+		A20046 /* SpotlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightView.swift; sourceTree = "<group>"; };
+		A20047 /* BootScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootScreen.swift; sourceTree = "<group>"; };
+		A20048 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		A20049 /* IDETheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDETheme.swift; sourceTree = "<group>"; };
+		A20050 /* SyntaxHighlighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxHighlighter.swift; sourceTree = "<group>"; };
+		A20051 /* CodeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeEditorView.swift; sourceTree = "<group>"; };
+		A20052 /* FileTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTreeView.swift; sourceTree = "<group>"; };
+		A20053 /* IDETabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDETabBarView.swift; sourceTree = "<group>"; };
+		A20054 /* IDETerminalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDETerminalView.swift; sourceTree = "<group>"; };
+		A20055 /* IDELayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDELayoutView.swift; sourceTree = "<group>"; };
+		A20056 /* XcodeTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeTheme.swift; sourceTree = "<group>"; };
+		A20057 /* XcodeToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeToolbar.swift; sourceTree = "<group>"; };
+		A20058 /* XcodeNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeNavigator.swift; sourceTree = "<group>"; };
+		A20059 /* XcodeAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeAppView.swift; sourceTree = "<group>"; };
+		A20060 /* VSCodeTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSCodeTheme.swift; sourceTree = "<group>"; };
+		A20061 /* VSCodeActivityBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSCodeActivityBar.swift; sourceTree = "<group>"; };
+		A20062 /* VSCodeSidebarPanels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSCodeSidebarPanels.swift; sourceTree = "<group>"; };
+		A20063 /* VSCodeBreadcrumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSCodeBreadcrumb.swift; sourceTree = "<group>"; };
+		A20064 /* VSCodeMinimap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSCodeMinimap.swift; sourceTree = "<group>"; };
+		A20065 /* VSCodeStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSCodeStatusBar.swift; sourceTree = "<group>"; };
+		A20066 /* VSCodeAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSCodeAppView.swift; sourceTree = "<group>"; };
+		A20067 /* AndroidStudioTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidStudioTheme.swift; sourceTree = "<group>"; };
+		A20068 /* AndroidStudioToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidStudioToolbar.swift; sourceTree = "<group>"; };
+		A20069 /* AndroidStudioLogcat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidStudioLogcat.swift; sourceTree = "<group>"; };
+		A20070 /* AndroidStudioAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidStudioAppView.swift; sourceTree = "<group>"; };
+		A20071 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		A20072 /* LaunchpadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchpadView.swift; sourceTree = "<group>"; };
+		A20073 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		A20074 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		A20075 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		A30001 /* MacFake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacFake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50001 = {
+			isa = PBXGroup;
+			children = (
+				A50002 /* MacFake */,
+				A50010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50002 /* MacFake */ = {
+			isa = PBXGroup;
+			children = (
+				A20001 /* MacFakeApp.swift */,
+				A50003 /* Core */,
+				A50007 /* Theme */,
+				A50008 /* Models */,
+				A50009 /* Apps */,
+				A50011 /* Utils */,
+				A50029 /* Shared */,
+				A20009 /* Assets.xcassets */,
+				A20071 /* Assets */,
+			);
+			path = MacFake;
+			sourceTree = "<group>";
+		};
+		A50003 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A50004 /* Desktop */,
+				A50005 /* WindowManager */,
+				A50006 /* MenuBar */,
+				A50012 /* Dock */,
+				A50028 /* Boot */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A50004 /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				A20002 /* DesktopView.swift */,
+				A20014 /* DesktopIconView.swift */,
+				A20018 /* WindowsLayerView.swift */,
+				A20046 /* SpotlightView.swift */,
+				A20072 /* LaunchpadView.swift */,
+			);
+			path = Desktop;
+			sourceTree = "<group>";
+		};
+		A50005 /* WindowManager */ = {
+			isa = PBXGroup;
+			children = (
+				A20007 /* WindowManager.swift */,
+				A20008 /* WindowState.swift */,
+				A20015 /* WindowChrome.swift */,
+				A20016 /* ResizableWindow.swift */,
+				A20017 /* TrafficLightButtons.swift */,
+			);
+			path = WindowManager;
+			sourceTree = "<group>";
+		};
+		A50006 /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				A20010 /* MenuBarView.swift */,
+				A20011 /* MenuDropdown.swift */,
+				A20035 /* WiFiDropdownView.swift */,
+				A20044 /* BatteryDropdownView.swift */,
+				A20045 /* ClockDropdownView.swift */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
+		A50007 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A20003 /* MacColors.swift */,
+				A20004 /* MacFonts.swift */,
+				A20005 /* MacShadows.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		A50008 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20006 /* FakeApp.swift */,
+				A20025 /* FakeFileSystem.swift */,
+				A20043 /* WallpaperManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A50009 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				A50013 /* AboutMac */,
+				A50014 /* Calculator */,
+				A50015 /* Notes */,
+				A50016 /* Finder */,
+				A50017 /* TextEdit */,
+				A50018 /* Terminal */,
+				A50019 /* Safari */,
+				A50020 /* Settings */,
+				A50021 /* Photos */,
+				A50022 /* Music */,
+				A50023 /* Maps */,
+				A50024 /* Calendar */,
+				A50025 /* Camera */,
+				A50026 /* Contacts */,
+				A50027 /* Clock */,
+				A50034 /* Messages */,
+				A50035 /* Mail */,
+				A50036 /* Reminders */,
+				A50030 /* FakeXcode */,
+				A50031 /* FakeVSCode */,
+				A50032 /* FakeAndroidStudio */,
+				A20034 /* PlaceholderView.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		A50010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30001 /* MacFake.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50011 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A20033 /* HapticManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A50012 /* Dock */ = {
+			isa = PBXGroup;
+			children = (
+				A20012 /* DockView.swift */,
+				A20013 /* DockIconView.swift */,
+			);
+			path = Dock;
+			sourceTree = "<group>";
+		};
+		A50013 /* AboutMac */ = {
+			isa = PBXGroup;
+			children = (
+				A20019 /* AboutMacView.swift */,
+			);
+			path = AboutMac;
+			sourceTree = "<group>";
+		};
+		A50014 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				A20020 /* CalculatorView.swift */,
+				A20021 /* CalculatorViewModel.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		A50015 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				A20022 /* NotesView.swift */,
+				A20023 /* NotesViewModel.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		A50016 /* Finder */ = {
+			isa = PBXGroup;
+			children = (
+				A20024 /* FinderView.swift */,
+			);
+			path = Finder;
+			sourceTree = "<group>";
+		};
+		A50017 /* TextEdit */ = {
+			isa = PBXGroup;
+			children = (
+				A20026 /* TextEditView.swift */,
+			);
+			path = TextEdit;
+			sourceTree = "<group>";
+		};
+		A50018 /* Terminal */ = {
+			isa = PBXGroup;
+			children = (
+				A20027 /* TerminalView.swift */,
+				A20028 /* TerminalViewModel.swift */,
+				A20029 /* CommandParser.swift */,
+			);
+			path = Terminal;
+			sourceTree = "<group>";
+		};
+		A50019 /* Safari */ = {
+			isa = PBXGroup;
+			children = (
+				A20030 /* SafariView.swift */,
+				A20031 /* SafariWebView.swift */,
+			);
+			path = Safari;
+			sourceTree = "<group>";
+		};
+		A50020 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A20032 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A50021 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				A20036 /* PhotosView.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		A50022 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				A20037 /* MusicView.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		A50023 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				A20038 /* MapsView.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		A50024 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				A20039 /* CalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		A50025 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				A20040 /* CameraView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		A50026 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				A20041 /* ContactsView.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		A50027 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				A20042 /* ClockView.swift */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		A50028 /* Boot */ = {
+			isa = PBXGroup;
+			children = (
+				A20047 /* BootScreen.swift */,
+				A20048 /* LoginScreen.swift */,
+			);
+			path = Boot;
+			sourceTree = "<group>";
+		};
+		A50029 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A50033 /* IDEKit */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A50030 /* FakeXcode */ = {
+			isa = PBXGroup;
+			children = (
+				A20056 /* XcodeTheme.swift */,
+				A20057 /* XcodeToolbar.swift */,
+				A20058 /* XcodeNavigator.swift */,
+				A20059 /* XcodeAppView.swift */,
+			);
+			path = FakeXcode;
+			sourceTree = "<group>";
+		};
+		A50031 /* FakeVSCode */ = {
+			isa = PBXGroup;
+			children = (
+				A20060 /* VSCodeTheme.swift */,
+				A20061 /* VSCodeActivityBar.swift */,
+				A20062 /* VSCodeSidebarPanels.swift */,
+				A20063 /* VSCodeBreadcrumb.swift */,
+				A20064 /* VSCodeMinimap.swift */,
+				A20065 /* VSCodeStatusBar.swift */,
+				A20066 /* VSCodeAppView.swift */,
+			);
+			path = FakeVSCode;
+			sourceTree = "<group>";
+		};
+		A50032 /* FakeAndroidStudio */ = {
+			isa = PBXGroup;
+			children = (
+				A20067 /* AndroidStudioTheme.swift */,
+				A20068 /* AndroidStudioToolbar.swift */,
+				A20069 /* AndroidStudioLogcat.swift */,
+				A20070 /* AndroidStudioAppView.swift */,
+			);
+			path = FakeAndroidStudio;
+			sourceTree = "<group>";
+		};
+		A50033 /* IDEKit */ = {
+			isa = PBXGroup;
+			children = (
+				A20049 /* IDETheme.swift */,
+				A20050 /* SyntaxHighlighter.swift */,
+				A20051 /* CodeEditorView.swift */,
+				A20052 /* FileTreeView.swift */,
+				A20053 /* IDETabBarView.swift */,
+				A20054 /* IDETerminalView.swift */,
+				A20055 /* IDELayoutView.swift */,
+			);
+			path = IDEKit;
+			sourceTree = "<group>";
+		};
+		A50034 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				A20073 /* MessagesView.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		A50035 /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				A20074 /* MailView.swift */,
+			);
+			path = Mail;
+			sourceTree = "<group>";
+		};
+		A50036 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				A20075 /* RemindersView.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60001 /* MacFake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80002 /* Build configuration list for PBXNativeTarget "MacFake" */;
+			buildPhases = (
+				A70001 /* Sources */,
+				A40001 /* Frameworks */,
+				A70002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacFake;
+			productName = MacFake;
+			productReference = A30001 /* MacFake.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A60001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A80001 /* Build configuration list for PBXProject "MacFake" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50001;
+			productRefGroup = A50010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60001 /* MacFake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10009 /* Assets.xcassets in Resources */,
+				A10071 /* Assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001 /* MacFakeApp.swift in Sources */,
+				A10002 /* DesktopView.swift in Sources */,
+				A10003 /* MacColors.swift in Sources */,
+				A10004 /* MacFonts.swift in Sources */,
+				A10005 /* MacShadows.swift in Sources */,
+				A10006 /* FakeApp.swift in Sources */,
+				A10007 /* WindowManager.swift in Sources */,
+				A10008 /* WindowState.swift in Sources */,
+				A10010 /* MenuBarView.swift in Sources */,
+				A10011 /* MenuDropdown.swift in Sources */,
+				A10012 /* DockView.swift in Sources */,
+				A10013 /* DockIconView.swift in Sources */,
+				A10014 /* DesktopIconView.swift in Sources */,
+				A10015 /* WindowChrome.swift in Sources */,
+				A10016 /* ResizableWindow.swift in Sources */,
+				A10017 /* TrafficLightButtons.swift in Sources */,
+				A10018 /* WindowsLayerView.swift in Sources */,
+				A10019 /* AboutMacView.swift in Sources */,
+				A10020 /* CalculatorView.swift in Sources */,
+				A10021 /* CalculatorViewModel.swift in Sources */,
+				A10022 /* NotesView.swift in Sources */,
+				A10023 /* NotesViewModel.swift in Sources */,
+				A10024 /* FinderView.swift in Sources */,
+				A10025 /* FakeFileSystem.swift in Sources */,
+				A10026 /* TextEditView.swift in Sources */,
+				A10027 /* TerminalView.swift in Sources */,
+				A10028 /* TerminalViewModel.swift in Sources */,
+				A10029 /* CommandParser.swift in Sources */,
+				A10030 /* SafariView.swift in Sources */,
+				A10031 /* SafariWebView.swift in Sources */,
+				A10032 /* SettingsView.swift in Sources */,
+				A10033 /* HapticManager.swift in Sources */,
+				A10034 /* PlaceholderView.swift in Sources */,
+				A10035 /* WiFiDropdownView.swift in Sources */,
+				A10036 /* PhotosView.swift in Sources */,
+				A10037 /* MusicView.swift in Sources */,
+				A10038 /* MapsView.swift in Sources */,
+				A10039 /* CalendarView.swift in Sources */,
+				A10040 /* CameraView.swift in Sources */,
+				A10041 /* ContactsView.swift in Sources */,
+				A10042 /* ClockView.swift in Sources */,
+				A10043 /* WallpaperManager.swift in Sources */,
+				A10044 /* BatteryDropdownView.swift in Sources */,
+				A10045 /* ClockDropdownView.swift in Sources */,
+				A10046 /* SpotlightView.swift in Sources */,
+				A10047 /* BootScreen.swift in Sources */,
+				A10048 /* LoginScreen.swift in Sources */,
+				A10049 /* IDETheme.swift in Sources */,
+				A10050 /* SyntaxHighlighter.swift in Sources */,
+				A10051 /* CodeEditorView.swift in Sources */,
+				A10052 /* FileTreeView.swift in Sources */,
+				A10053 /* IDETabBarView.swift in Sources */,
+				A10054 /* IDETerminalView.swift in Sources */,
+				A10055 /* IDELayoutView.swift in Sources */,
+				A10056 /* XcodeTheme.swift in Sources */,
+				A10057 /* XcodeToolbar.swift in Sources */,
+				A10058 /* XcodeNavigator.swift in Sources */,
+				A10059 /* XcodeAppView.swift in Sources */,
+				A10060 /* VSCodeTheme.swift in Sources */,
+				A10061 /* VSCodeActivityBar.swift in Sources */,
+				A10062 /* VSCodeSidebarPanels.swift in Sources */,
+				A10063 /* VSCodeBreadcrumb.swift in Sources */,
+				A10064 /* VSCodeMinimap.swift in Sources */,
+				A10065 /* VSCodeStatusBar.swift in Sources */,
+				A10066 /* VSCodeAppView.swift in Sources */,
+				A10067 /* AndroidStudioTheme.swift in Sources */,
+				A10068 /* AndroidStudioToolbar.swift in Sources */,
+				A10069 /* AndroidStudioLogcat.swift in Sources */,
+				A10070 /* AndroidStudioAppView.swift in Sources */,
+				A10072 /* LaunchpadView.swift in Sources */,
+				A10073 /* MessagesView.swift in Sources */,
+				A10074 /* MailView.swift in Sources */,
+				A10075 /* RemindersView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB0001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB0002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB0003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacFake/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mac Lite";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "MacFake needs access to play your music library.";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "MacFake needs access to display your calendar events.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "MacFake needs camera access for FaceTime.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "MacFake needs access to display your contacts.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "MacFake needs your location to show it on the map.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MacFake needs microphone access for FaceTime.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "MacFake needs access to display your photos in the Photos app.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macfake.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AB0004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacFake/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mac Lite";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "MacFake needs access to play your music library.";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "MacFake needs access to display your calendar events.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "MacFake needs camera access for FaceTime.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "MacFake needs access to display your contacts.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "MacFake needs your location to show it on the map.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MacFake needs microphone access for FaceTime.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "MacFake needs access to display your photos in the Photos app.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macfake.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80001 /* Build configuration list for PBXProject "MacFake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0001 /* Debug */,
+				AB0002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80002 /* Build configuration list for PBXNativeTarget "MacFake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0003 /* Debug */,
+				AB0004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90001 /* Project object */;
+}
